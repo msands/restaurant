@@ -1,5 +1,5 @@
 
-nav.navbar.navbar-default.navbar-fixed-top role="banner" 
+nav.navbar.navbar-default.navbar-fixed-top.navbar-inverse role="banner" 
   .container
     .navbar-header
       button.navbar-toggle data-target=".navbar-collapse" data-toggle="collapse" type="button" 
@@ -7,9 +7,9 @@ nav.navbar.navbar-default.navbar-fixed-top role="banner"
         span.icon-bar
         span.icon-bar
         span.icon-bar
-      = link_to "Bootply", "/", class: "navbar-brand"
+      = link_to "Food Bingo", "/", class: "navbar-brand"
     nav.collapse.navbar-collapse role="navigation" 
-      ul.nav.navbar-nav
+      ul.nav.navbar-nav.navbar-right
         li = link_to "Home", "#home"
         li = link_to "Menu", "#menu"
         li = link_to "Hours", "#hours"
@@ -37,17 +37,17 @@ nav.navbar.navbar-default.navbar-fixed-top role="banner"
     #leftCol.col-md-3
       ul#sidebar.nav.nav-stacked
         li = link_to "Appetizers", "#apps"
-        li = link_to "Section 1", "#sec1"
-        li = link_to "Section 2", "#sec2"
-        li = link_to "Section 3", "#sec3"
-        li = link_to "Section 4", "#sec4"
+        li = link_to "Soup", "#soup"
+        li = link_to "Chicken", "#chicken"
+        li = link_to "Beef", "#beef"
+        li = link_to "Pork", "#pork"
     /! /left
     /! right
     .col-md-9
       h2#home Home
       p 
         | This can be a quick little snippet about your restaurant, telling what kind of food you serve, what services you offer (delivery, catering, carry-out, etc).  This would be the best place for your business' mission statement.
-      hr/
+      hr
       h2#menu Our Menu
       p
         | We serve a wide variety of foods.
@@ -71,46 +71,74 @@ nav.navbar.navbar-default.navbar-fixed-top role="banner"
             tr
               td Food Selection 3
               td $5.55
-      hr/
-      h2#sec2 Section 2
-      p
-        | Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-        | dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores
-        | eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-        | sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-        | Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut!
-      .row
-        .col-md-4
-          img.img-responsive src="http://placehold.it/300x300" /
-        .col-md-4
-          img.img-responsive src="http://placehold.it/300x300" /
-        .col-md-4
-          img.img-responsive src="http://placehold.it/300x300" /
-      hr/
-      h2#sec3 Section 3
-      p
-        | Images are responsive sed @mdo but sum are more fun peratis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-        | totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-        | dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores
-        | eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-        | sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-        | Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut..
-      p
-        | Fos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-        | sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-        | Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut..
-      h2#sec4 Section 4
-      p
-        | Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-        | totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-        | dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores
-        | eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-        | sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-        | Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut.
-      hr/
-      h4
-        a href="http://www.bootply.com/Gygh9swISB"  Edit on Bootply
-      hr/
-    /! /right
-  /! /row
-/! /container
+              
+        hr
+        h3#soup Soup
+        table.table
+          colgroup
+            col.col-lg-6
+            col.col-lg-3
+            col-col-lg-3
+          thead
+            tr
+              th Menu Item
+              th Price Small ($)
+              th Price Large ($)
+          tbody
+            tr
+              td Chicken
+              td $3.55
+              td $7.00
+            tr
+              td Miso
+              td $3.55
+              td $7.00
+            tr
+              td Tomato
+              td $2.55
+              td $5.00
+
+        hr
+        h3#chicken Chicken
+        table.table
+          colgroup
+            col.col-lg-9
+            col.col-lg-3
+          thead
+            tr
+              th Menu Item
+              th Price ($)
+          tbody
+            tr
+              th Chicken Tacos (3)
+              th $7.55
+            tr
+              th Chicken Burrito (2)
+              th $7.55
+            tr
+              th Chicken Marsala
+              th $7.55
+        
+        hr
+        h3#beef Beef
+        table.table
+          colgroup
+            col.col-lg-9
+            col.ocl-lg-3
+          thead
+            tr
+              th Menu Item
+              th Price ($)
+          tbody
+            tr
+              th Beef and Broccoli
+              th $8.55
+            tr
+              th Beef Rib Tips
+              th $8.55
+            tr
+              th Sirloin Steak
+              th $8.55
+        
+        hr
+        
