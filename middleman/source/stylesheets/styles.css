@@ -60,3 +60,102 @@ body {
   border:0 #eee solid;
   border-right-width:5px;
 }
+
+.parallax-wings {
+  /* The image used */
+  background-image: url("../images/wings.jpg");
+
+  /* Set a specific height with pixels */
+  height: 150px;
+
+  /* Create parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-apps {
+  /* The image used */
+  background-image: url("../images/apps.jpg");
+
+  /* Set a specific height with pixels */
+  height: 150px;
+
+  /* Create parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-soup {
+  /* The image used */
+  background-image: url("../images/soup.jpg");
+
+  /* Set a specific height with pixels */
+  height: 150px;
+
+  /* Create parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-chicken {
+  /* The image used */
+  background-image: url("../images/chicken.jpg");
+
+  /* Set a specific height with pixels */
+  height: 150px;
+
+  /* Create parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-beef {
+  /* The image used */
+  background-image: url("../images/beef.jpg");
+
+  /* Set a specific height with pixels */
+  height: 150px;
+
+  /* Create parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.parallax-pork {
+  /* The image used */
+  background-image: url("../images/pork.jpg");
+
+  /* Set a specific height with pixels */
+  height: 150px;
+
+  /* Create parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-wings {
+  /* The image used */
+  background-image: url("../images/wings.jpg");
+
+  /* Set a specific height with pixels */
+  height: 150px;
+
+  /* Create parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
